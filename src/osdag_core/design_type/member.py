@@ -4,9 +4,6 @@ from ..utils.common.component import *
 from ..utils.common.Section_Properties_Calculator import *
 from .main import Main
 from ..utils.common.Unsymmetrical_Section_Properties import Unsymmetrical_I_Section_Properties
-from PySide6 import QtWidgets
-from PySide6.QtWidgets import QCheckBox
-from PySide6.QtCore import Qt
 
 
 class Member(Main):

@@ -2002,7 +2002,6 @@ class BeamCoverPlateWeld(MomentConnection):
         return components
 
     def call_3DPlate(self, ui, bgcolor):
-        from PySide6.QtWidgets import QCheckBox
         for chkbox in ui.cad_comp_widget.children():
             if chkbox.objectName() == 'Cover Plate':
                 continue

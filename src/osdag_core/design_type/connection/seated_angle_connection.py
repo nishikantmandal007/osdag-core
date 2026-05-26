@@ -2041,8 +2041,6 @@ class SeatedAngleConnection(ShearConnection):
         return components
 
     def call_3DPlate(self, ui, bgcolor):
-        from PySide6.QtWidgets import QCheckBox
-        from PySide6.QtCore import Qt
         for chkbox in ui.cad_comp_widget.children():
             if chkbox.objectName() == 'Seated Angle':
                 continue

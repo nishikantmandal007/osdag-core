@@ -181,8 +181,6 @@ class TrussConnectionBolted(TrussConnection):
         return components
 
     def call_3DPlate(self, ui, bgcolor):
-        from PySide6.QtWidgets import QCheckBox
-        from PySide6.QtCore import Qt
         for chkbox in ui.frame.children():
             if chkbox.objectName() == 'Truss Connection Bolted':
                 continue

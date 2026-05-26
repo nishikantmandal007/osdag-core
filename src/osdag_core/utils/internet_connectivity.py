@@ -1,5 +1,3 @@
-from PySide6.QtCore import QObject, QTimer, Signal, QEventLoop, QUrl
-from PySide6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 
 
 class InternetConnectivity(QObject):

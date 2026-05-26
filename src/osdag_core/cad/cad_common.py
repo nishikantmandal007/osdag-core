@@ -1,5 +1,3 @@
-from PySide6.QtWidgets import QMainWindow, QDialog, QMessageBox, QFileDialog, QApplication
-from PySide6.QtCore import Signal, Slot, QObject, QFile, QTextStream, Qt, QIODevice
 from ..gui.ui_template import Ui_ModuleWindow
 
 

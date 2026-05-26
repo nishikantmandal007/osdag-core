@@ -139,7 +139,6 @@ def init_display(backend_str=None, size=(1024, 768)):
 
             def centerOnScreen(self):
                 '''Centers the window on the screen.'''
-                from PySide6.QtGui import QGuiApplication
                 screen = QGuiApplication.primaryScreen()
                 resolution = screen.availableGeometry()
                 self.move((resolution.width() // 2) - (self.frameSize().width() // 2),

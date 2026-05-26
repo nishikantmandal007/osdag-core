@@ -331,7 +331,6 @@ class CleatAngleConnection(ShearConnection):
         return components
 
     def call_3DCleat(self, ui, bgcolor):
-        from PySide6.QtWidgets import QCheckBox
         for chkbox in ui.cad_comp_widget.children():
             if chkbox.objectName() == 'Cleat Angle':
                 continue
