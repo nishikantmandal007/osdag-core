@@ -2065,7 +2065,7 @@ class CommonDesignLogic(object):
         # Stiffener Logic
         include_intermediate_stiffeners = True
         stiffener_spacing_val = getattr(Conn, 'c', 'N/A')
-        
+
         # Web philosophy is the single source of truth: 'Thick Web without ITS' has no
         # intermediate transverse stiffeners, so never draw them regardless of self.c.
         web_philosophy = getattr(Conn, 'web_philosophy', '')

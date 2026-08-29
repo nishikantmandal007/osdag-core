@@ -179,7 +179,7 @@ class PSOUIManager:
         # Disable input dock during optimization
         if hasattr(self.parent, 'input_dock'):
             self.parent.input_dock.setEnabled(False)
-        
+
         # Output dock stays visible throughout PSO - no hide/show needed
 
         # Mark that _close_popup_and_render will handle the 3D render

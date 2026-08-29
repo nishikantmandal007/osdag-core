@@ -50,7 +50,7 @@ def check_web_crippling_IS800(shear_force, b1, tw, fy, d, tf, gamma_m0, logger, 
         
         # DDCL Eq 2.45: P_crip = (b1 + n2) * tw * fyw / gamma_m0
         P_crip = (b1 + n2) * tw * fy / gamma_m0
-        
+
         # NOTE: The web-slenderness (d/tw > 200) warning is intentionally NOT logged here.
         # Like the crippling-shortfall warning below, this function runs once per particle
         # per PSO iteration; logging here floods the design log. It is logged once per run
